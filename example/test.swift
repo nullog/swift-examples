@@ -32,4 +32,6 @@ print(returnFifteen())
 print(increment(7))
 print(hasAnyMatches(list: numbers, condition: lessThanTen))
 
-
+print(numbers)
+let sortedNumbers = numbers.sort { $0 > $1 }
+print(sortedNumbers)
